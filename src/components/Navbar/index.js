@@ -24,7 +24,7 @@ export default function Navbar() {
           <Link to='/' className={classNames(styles.link, {
             [styles.selected]: location.pathname === '/'
           })}>
-            Página inicial
+            Home
           </Link>
         </div>
       </div>
